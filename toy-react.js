@@ -181,6 +181,7 @@ export function createElement(type, attributes, ...children) {
 }
 
 export function render(component, parentElement) {
+
   let range = document.createRange()
   range.setStart(parentElement, 0)
   range.setEnd(parentElement, parentElement.childNodes.length)
